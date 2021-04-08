@@ -11,17 +11,23 @@ html {
 body {
   background-color: #b1bfd8;
   background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+  font-family: cursive, "Courier New", Courier, monospace;
   height: 100vh;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
-  padding: 6.1rem 0;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .wrapper {
   width: 400px;
-  border: 3px solid red;
+  border: 5px solid red;
   border-radius: 10px;
   background-color: #000000;
   color: #ffffff;
@@ -36,7 +42,7 @@ body {
 
 .screen {
   text-align: right;
-  font-family: "Courier New", Courier, monospace;
+  font-family: cursive, "Courier New", Courier, monospace;
   padding: 20px 5px;
   font-size: 40px;
 }
@@ -53,6 +59,11 @@ body {
   background-color: #ebebeb;
 }
 .calc-button:active {
+  background-color: #bbbcbe;
+  border: 2px solid #000000;
+}
+
+.calc-button:focus {
   background-color: #bbbcbe;
 }
 
