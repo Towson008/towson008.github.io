@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper {
-  width: 400px;
+  width: 30vw;
   border: 5px solid red;
   border-radius: 10px;
   background-color: #000000;
@@ -41,17 +41,20 @@ body {
 }
 
 .screen {
+  width: 100%;
   text-align: right;
   font-family: cursive, "Courier New", Courier, monospace;
-  padding: 20px 5px;
+  padding: 20px 10px;
   font-size: 40px;
 }
 .calc-button {
   background-color: #d8d9db;
   color: #000000;
   border: none;
+  border-radius: 50%;
   font-size: 40px;
   height: 100px;
+  width: 100px;
   flex-basis: 24.5%;
 }
 
@@ -74,6 +77,11 @@ body {
 .triple {
   flex-basis: 74.8%;
 }
+
+.full {
+  flex-basis: 100%;
+}
+
 .calc-button:last-child {
   background-color: #df974c;
   color: #ffffff;
