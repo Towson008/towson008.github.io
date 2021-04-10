@@ -92,3 +92,16 @@ body {
 .calc-button:last-child:active {
   background-color: #dd8d37;
 }
+
+@media only screen and (max-width: 872px) {
+  .wrapper {
+    width: 50vw;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+}

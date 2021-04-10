@@ -52,17 +52,6 @@ function handleSymbol(symbol){
             break
     }
 }
-function handleMaths(symbol){
-    if(collate === '0'){
-        //do nothing 
-        return;
-    }
-    const intCollate = parseInt(collate);
-
-    if (currentTotal === 0){
-
-    }
-}
 // function to handle maths functions
 
 function handleMaths(symbol){
